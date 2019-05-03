@@ -1,0 +1,37 @@
+
+[FEATURES]
+
+#name          index
+tempt          4
+rngt           12
+
+
+[/FEATURES]
+
+
+
+[DEVICES]
+
+#device        feature,start,end,weight        ...
+
+TR2            tempt,56114000,56136500,1       rngt,173700000,182900000,1
+PR3            tempt,56127000,56134999,1       rngt,183000000,200000000,1
+SL1            tempt,56000000,56113000,1       rngt,160000000,173690000,1
+
+#TL2            tempt,56100000,56115000,1       rngt,168000000,174000000,1
+#DK1            tempt,56135000,56150000,1       rngt,175000000,180000000,1
+#PL7            tempt,56128000,56134999,1       rngt,182000000,185000000,1
+
+
+[/DEVICES]
+
+
+
+[OTHERS]
+
+SERVER_IP    = 192.168.0.60
+SERVER_PORT  = 33333
+
+[/OTHERS]
+
+
